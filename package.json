@@ -1,0 +1,14 @@
+{
+  "name": "accord",
+  "version": "0.1.0",
+  "description": "Policy-bound negotiation safety component for agent-to-agent coordination (policy capture, guard, verifiable report, adversarial benchmark)",
+  "type": "module",
+  "license": "(MIT OR Apache-2.0)",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "demo": "node bin/demo.js",
+    "bench": "node bin/bench.js"
+  }
+}
